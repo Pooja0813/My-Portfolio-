@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 80px;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        .nav-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-container ul li {
+            margin: 0 15px;
+        }
+        .nav-container ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+        .nav-container ul li a:hover {
+            background: #d32f2f;
+            border-radius: 5px;
+        }
+
+        /* Contact Page Content */
+        .container {
+            background: white;
+            width: 50%;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .social-links a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #0073b1;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #d32f2f;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #d32f2f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #0073b1;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+    <div class="nav-container">
+        <a href="java1.html" class="logo">My<span>Portfolio</span></a>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+            <li><a href="contact.html">Contact & Resume</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <h2>Contact & Resume</h2>
+        <p><b> Phone:</b>91+++++++++</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">🔗 LinkedIn</a>
+            <a href="https://www.instagram.com/your-profile" target="_blank">📸 Instagram</a>
+        </div>
+        <a href="resume.pdf" target="_blank" class="btn" download>📄 Download Resume (PDF)</a>
+    </div>
+
+</body>
+</html>
