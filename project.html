@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            padding-top: 80px;
+            font-family: Arial, sans-serif;
+        }
+ nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        .nav-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-container ul li {
+            margin: 0 15px;
+        }
+        .nav-container ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+        .nav-container ul li a:hover {
+            background: #d32f2f;
+            border-radius: 5px;
+        }
+
+        section {
+            margin: 50px auto;
+            width: 80%;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #d32f2f;
+        }
+        .project {
+            margin-bottom: 40px;
+        }
+        .project h3 {
+            color: #555;
+        }
+        .media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        video{
+            width: 450px; /* Fixed width */
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        img {
+            width: 400px; /* Fixed width */
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+<nav>
+    <div class="nav-container">
+        <a href="java1.html" class="logo">My<span>Portfolio</span></a>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+            <li><a href="contact.html">Contact & Resume</a></li>
+        </ul>
+    </div>
+</nav>
+    <section>
+        <h2>Projects</h2>
+
+        <!-- Yatrika Project -->
+        <div class="project">
+            <h3>Yatrika - Interactive Tourism Platform</h3>
+            <p>Yatrika is a dynamic web platform that connects travelers with India's diverse heritage and cultural experiences. It provides an engaging interface for users to explore various destinations, gain insights into local traditions, and plan their trips seamlessly.</p>
+            <p><b>Technologies Used:</b> HTML, CSS</p>
+            <p><b>Role:</b> Designed and developed the webpages, ensuring an intuitive and visually appealing user experience.</p>
+            <div class="media">
+                <h4>Project Video</h4>
+                <video controls>
+                    <source src="yatrika.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Text-Based Adventure Game -->
+        <div class="project">
+            <h3>Text-Based Adventure Game (Techfest 2024)</h3>
+            <p>Developed a text-based adventure game using C for Techfest 2024. Worked on scripting, plot design, poster design, and debugging. Used VS Code and took references from various text-based adventure games.</p>
+            <p><b>Skills Learned:</b> Teamwork, graphic design, communication, C programming, problem-solving, management.</p>
+            <div class="media">
+                <h4>Project Poster</h4>
+                <img src="game.jpg" alt="Text-Based Adventure Game Poster">
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
