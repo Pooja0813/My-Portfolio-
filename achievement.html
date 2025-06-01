@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Pooja Choudhary</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 80px;
+            margin: 0;
+        }
+
+        /* Navigation Styling */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+        .nav-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .nav-container ul li {
+            margin: 0 15px;
+        }
+        .nav-container ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+        .nav-container ul li a:hover {
+            background: #d32f2f;
+            border-radius: 5px;
+        }
+
+        /* Main Container */
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        /* Section Styling */
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        h2 {
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+
+        /* Achievement Styling */
+        .achievement {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: left;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .achievement h3 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            color: #d32f2f;
+        }
+
+        .achievement p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .certificate-link {
+            color: #d32f2f;
+            font-size: 1rem;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .achievement:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-container ul {
+                flex-direction: column;
+            }
+            .nav-container ul li {
+                margin: 10px 0;
+            }
+            .section {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="java1.html" class="logo">My<span>Portfolio</span></a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="achievement.html">Achievements</a></li>
+                <li><a href="contact.html">Contact & Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Achievements Section -->
+        <div class="section">
+            <h2>My Achievements</h2>
+
+            <!-- IIT Bombay HTML Certification -->
+            <div class="achievement">
+                <h3>IIT Bombay HTML Certification</h3>
+                <p>
+                    I received an HTML certification from IIT Bombay, gaining a deep understanding of HTML structure, semantic elements, and creating responsive webpages. This certification enhanced my ability to design and implement web pages effectively.
+                </p>
+                <a href="certificate1.pdf" class="certificate-link" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- IIS Hackathon Participation Certificate -->
+            <div class="achievement">
+                <h3>Certificate of Participation in IIS Hackathon</h3>
+                <p>
+                    I participated in the IIS Hackathon where my team and I presented an innovative idea to solve real-world problems. Although there was no coding involved, the experience helped me enhance my skills in idea generation, pitching, and teamwork.
+                </p>
+                <a href="hacathon.pdf" class="certificate-link" target="_blank">View Certificate</a>
+            </div>
+
+            <!-- SEO Workshop Certificate -->
+            <div class="achievement">
+                <h3>SEO Workshop Certificate</h3>
+                <p>
+                    I completed a workshop on SEO organized by Digital Orix. The workshop covered important aspects of search engine optimization, including on-page and off-page strategies, keyword research, and content optimization.
+                </p>
+                <a href="certificate.pdf" class="certificate-link" target="_blank">View Certificate</a>
+            </div>
+
+          
+            <!-- IIT Bombay C Training Certification -->
+            <div class="achievement">
+                <h3>IIT Bombay C Training Certification</h3>
+                <p>
+                    I received a C programming certification from IIT Bombay, which equipped me with a solid foundation in C language concepts, including memory management, pointers, and data structures.
+                </p>
+                <a href="c.pdf" class="certificate-link" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
